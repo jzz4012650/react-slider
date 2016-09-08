@@ -8,3 +8,21 @@ simple slider component write in React.js
 | interval      | 3000     | how many milliseconds to auto play next slid. |
 | autoPlay      | true     | set true to play next slid automaticly | 
 
+## example
+```javascript
+import React, { Component } from 'react';
+import Slider from "react-slider";
+
+export class Example extends Component {
+    render() {
+        return (
+            <Slider>
+                <div>1</div>
+                <div>2</div>
+                <div>3</div>
+            </Slider>
+        );
+    }
+}
+
+```
