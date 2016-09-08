@@ -1,0 +1,25 @@
+.slider-wrapper{
+    .slider-content{
+        width: 100%;
+        height: 100px;
+        position: relative;
+        overflow: hidden;
+    }
+    .slider-item{
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transition: transform linear 0.3s;
+        will-change: transform;
+    }
+    .slider-ctrl-wrapper{
+        display: flex;
+    }
+    .slider-ctrl{
+        flex: 1 0 0px;
+        border: solid 1px #CCC;
+        height: 10px;
+    }
+}
